@@ -22,7 +22,7 @@ public class LeetCode1544 {
         return sb.reverse().toString();
 
         //Approach 2
-        Stack<Character>  stack = new Stack<>();
+       /* Stack<Character>  stack = new Stack<>();
 
         for(int i=0;i<s.length();i++)
         {
@@ -42,7 +42,7 @@ public class LeetCode1544 {
             sb.append(stack.pop());
         }
 
-        return sb.reverse().toString();
+        return sb.reverse().toString();*/
 
     }
 
