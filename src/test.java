@@ -20,7 +20,9 @@
         System.out.println(a);
         System.out.println(test.a);
     }
-}*/
+}*//*
+
+*/
 /*public class test {
 
     final int s;
@@ -34,7 +36,9 @@
         test test=new test();
         System.out.println(test.s);
     }
-}*/
+}*//*
+
+*/
 /*public class test {
 
     public static int sum(int a, int b) {
@@ -51,7 +55,8 @@
         System.out.println(t.sum(3, 4, 5));
 
     }
-}*/
+}*//*
+
 
 public class test {
     public static void main(String[] args) {
@@ -59,3 +64,4 @@ public class test {
 //        str.r
     }
 }
+*/

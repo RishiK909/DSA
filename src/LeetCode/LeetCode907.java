@@ -5,11 +5,10 @@ package LeetCode;
  */
 public class LeetCode907 {
 
-
-    static void main() {
+    public static void main(String[] args) {
 
         LeetCode907 leetCode907 = new LeetCode907();
-        System.out.println(leetCode907.sumSubarrayMins(new int[]{11,81,94,43,3}));
+        System.out.println(leetCode907.sumSubarrayMins(new int[]{3,1,2,4}));
     }
 
     public int sumSubarrayMins(int[] arr) {
@@ -24,7 +23,6 @@ public class LeetCode907 {
 
                 min = Math.min(min, arr[j]);
 
-                // ab subarray arr[i...j] ka minimum mil gaya
                 sum += min;
             }
         }
